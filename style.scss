@@ -4,3 +4,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+	background: #444;
+	color: white;
+	font-family: 'Andale Mono', monospace;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	.stake{
+		width: 250px;
+	}
+	.wrapper{
+		max-width: 350px;
+		margin: 5% auto;
+	}
+	.git{
+		font-size: 50px;
+		color: white;
+		&:hover{
+			color: rgba(255,255,255,0.6);
+		}
+	}
+}

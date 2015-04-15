@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 
 
 gulp.task('sass', function () { 
-    gulp.src('./scss/**/*.scss')
+    gulp.src('style.scss')
         .pipe(sass({
         	errLogToConsole: true
         }))
@@ -11,5 +11,5 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function(){
-	gulp.watch('./scss/**.scss', ['sass'])	
+	gulp.watch('style.scss', ['sass'])	
 });
