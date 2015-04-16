@@ -1,0 +1,28 @@
+{
+  "name": "buffyApi",
+  "version": "1.0.0",
+  "description": "Buffy API",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrdnndtsch/buffyApi.git"
+  },
+  "keywords": [
+    "Buffy",
+    "API",
+    "Vampires"
+  ],
+  "author": "Heather, Jenny, Allison, and Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrdnndtsch/buffyApi/issues"
+  },
+  "homepage": "https://github.com/jrdnndtsch/buffyApi",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3"
+  }
+}
